@@ -7,9 +7,9 @@ export class GithubService{
 
     private _username: string;
 
-    // client id and secret are outdated ;-)
-    private client_id = '153969478c65dc3d7d8d';
-    private client_secret = 'b04a54af58b96626acfd44da63f1ada05b80d8d9';
+    // add your keys
+    private client_id = '';
+    private client_secret = '';
 
     constructor(private _http: Http){
         console.log('Github Service Ready...');
